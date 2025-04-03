@@ -1,0 +1,1 @@
+This repository contains the full Java code used in the article "Comparison of Search Trees in Java", written by Meruyert Oshayeva and Aknur Mansurkhan. This collaborative work provides an in-depth analysis and comparison of search tree implementations, with accompanying code to support the research findings.
