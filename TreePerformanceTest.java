@@ -8,6 +8,12 @@ interface Tree {
 
 public class TreePerformanceTest {
     public static void main(String[] args) {
+        int[] warmup = genInp(10000);
+        BST warmupTree = new BST();
+        for (int key : warmup) {
+            warmupTree.insert(key);
+        }
+
         int[] inpSz = {10000, 20000, 30000, 40000, 50000};
         Random rnd = new Random();
 
