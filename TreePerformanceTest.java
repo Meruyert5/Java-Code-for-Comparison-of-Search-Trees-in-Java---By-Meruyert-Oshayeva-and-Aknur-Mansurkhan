@@ -12,7 +12,7 @@ public class TreePerformanceTest {
         Random rnd = new Random();
 
         for (int size : inpSz) {
-            System.out.println("\nTesting for inp size: " + size);
+            System.out.println("\nTesting for input size: " + size);
 
             int[] origInp = genInp(size);
 
